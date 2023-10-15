@@ -1,0 +1,961 @@
+
+{
+    "results": {
+        "api_version": "1.26",
+        "results_available": 250,
+        "results_returned": "10",
+        "results_start": 1,
+        "shop": [
+            {
+                "access": "全線名古屋駅：ユニモール15番出口徒歩1分　地下鉄桜通線：国際センター駅4番出口徒歩1分",
+                "address": "愛知県名古屋市中村区名駅４－１７－３　メイヨンビル１Ｆ",
+                "band": "不可",
+                "barrier_free": "なし",
+                "budget": {
+                    "average": "3500円",
+                    "code": "B003",
+                    "name": "3001～4000円"
+                },
+                "budget_memo": "チャージ￥330（税込） / TS CUBIC・AEON・APLUS・SAISON使用OK",
+                "capacity": 70,
+                "card": "利用可",
+                "catch": "予約必須！限定もんじゃ 厳選された20種近くの梅酒",
+                "charter": "貸切不可",
+                "child": "お子様連れOK",
+                "close": "なし",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ000635884/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ000635884/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "なし",
+                "free_drink": "あり",
+                "free_food": "あり",
+                "genre": {
+                    "catch": "もんじゃ焼き　梅酒　団体　焼き肉　デート",
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "horigotatsu": "あり",
+                "id": "J000635884",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z033",
+                    "name": "愛知"
+                },
+                "large_service_area": {
+                    "code": "SS30",
+                    "name": "東海"
+                },
+                "lat": 35.1713693788,
+                "lng": 136.8893968043,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/76/11/P037227611/P037227611_69.jpg",
+                "lunch": "なし",
+                "middle_area": {
+                    "code": "Y200",
+                    "name": "名古屋（名古屋駅/西区/中村区）"
+                },
+                "midnight": "営業していない",
+                "mobile_access": "名駅:ﾕﾆﾓｰﾙ15番出口1分/国際ｾﾝﾀｰ4番出口1分",
+                "name": "鑠鑠 しゃくしゃく 名駅店",
+                "name_kana": "てっぱんやきにくもんじゃやきしゃくしゃくめいえきてん",
+                "non_smoking": "禁煙席なし",
+                "open": "月～金、祝前日: 17:30～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:00）土、日、祝日: 16:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:00）",
+                "other_memo": "",
+                "parking": "なし",
+                "party_capacity": 70,
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/76/13/P037227613/P037227613_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/76/13/P037227613/P037227613_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/76/13/P037227613/P037227613_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/76/13/P037227613/P037227613_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/76/13/P037227613/P037227613_58_s.jpg"
+                    }
+                },
+                "private_room": "なし",
+                "service_area": {
+                    "code": "SA33",
+                    "name": "愛知"
+                },
+                "shop_detail_memo": "",
+                "show": "なし",
+                "small_area": {
+                    "code": "X450",
+                    "name": "名古屋駅"
+                },
+                "station_name": "国際センター",
+                "sub_genre": {
+                    "code": "G016",
+                    "name": "お好み焼き・もんじゃ"
+                },
+                "tatami": "なし",
+                "tv": "あり",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ000635884/?vos=nhppalsa000016"
+                },
+                "wedding": "プロジェクター完備",
+                "wifi": "未確認"
+            },
+            {
+                "access": "ＪＲ錦糸町駅南口より徒歩約1分/東京メトロ半蔵門線錦糸町駅１出口より徒歩約1分",
+                "address": "東京都墨田区江東橋２－１９－１テルミナウエストウイング４Ｆ",
+                "band": "不可",
+                "barrier_free": "なし ：車椅子のお客様は当店スタッフまでご連絡をお願いいたします。スタッフが出来る限りのご対応をいたします。",
+                "budget": {
+                    "average": "【通常】2500円【宴会】3500円※飲み放題特別クーポンもご用意♪",
+                    "code": "B002",
+                    "name": "2001～3000円"
+                },
+                "budget_memo": "お通し代：なし",
+                "capacity": 63,
+                "card": "利用可",
+                "catch": "●平日18時までがお得！ ●美味しい生ビール☆",
+                "charter": "貸切不可 ： 応相談※食べ放題＆飲み放題などの貸切宴会のご相談も承っております♪お気軽に店舗までご相談下さい★",
+                "child": "お子様連れOK ：お子様メニューあり★ご家族でのご来店お待ちしております♪",
+                "close": "★年中無休★焼き肉には元気になる魔法がある！毎日元気をお届けします♪牛角錦糸町テルミナ店では毎日休まず営業いたします！",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ000657826/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ000657826/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "あり",
+                "free_drink": "あり ：☆食べ放題＆飲み放題クーポンを多数ご用意♪",
+                "free_food": "あり ：量にも質にもこだわった食べ放題をご用意♪少人数でも大人数でもご利用頂けます♪",
+                "genre": {
+                    "catch": "駐車券最大２時間発行できる焼き肉店",
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "horigotatsu": "なし",
+                "id": "J000657826",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z011",
+                    "name": "東京"
+                },
+                "large_service_area": {
+                    "code": "SS10",
+                    "name": "関東"
+                },
+                "lat": 35.6962406537,
+                "lng": 139.8128483372,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/64/13/P038146413/P038146413_69.jpg",
+                "lunch": "なし",
+                "middle_area": {
+                    "code": "Y017",
+                    "name": "錦糸町・浅草橋・両国・亀戸"
+                },
+                "midnight": "営業していない",
+                "mobile_access": "JR錦糸町駅南口より徒歩約4分",
+                "name": "牛角 錦糸町テルミナ店",
+                "name_kana": "ギュウカク　キンシチョウテルミナテン",
+                "non_smoking": "全面禁煙",
+                "open": "月～金: 17:00～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）土、日: 11:30～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）",
+                "other_memo": "",
+                "parking": "あり ：最大２時間まで無料。",
+                "party_capacity": "",
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/93/54/P042289354/P042289354_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/93/54/P042289354/P042289354_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/93/54/P042289354/P042289354_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/93/54/P042289354/P042289354_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/93/54/P042289354/P042289354_58_s.jpg"
+                    }
+                },
+                "private_room": "なし ：半個室あり。最大４名様まで利用可能！",
+                "service_area": {
+                    "code": "SA11",
+                    "name": "東京"
+                },
+                "shop_detail_memo": "充実の食べ飲み放題♪少～大人数宴会、打ち上げ、ご家族、デート…などに！気張らずに使える牛角★",
+                "show": "なし",
+                "small_area": {
+                    "code": "X193",
+                    "name": "錦糸町"
+                },
+                "station_name": "錦糸町",
+                "sub_genre": {
+                    "code": "G001",
+                    "name": "居酒屋"
+                },
+                "tatami": "なし",
+                "tv": "なし",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ000657826/?vos=nhppalsa000016"
+                },
+                "wedding": "歓迎",
+                "wifi": "あり"
+            },
+            {
+                "access": "ゆいレール美栄橋駅・牧志駅から徒歩8分／国際通りドン・キホーテ近く",
+                "address": "沖縄県那覇市牧志１－３－５８",
+                "band": "不可",
+                "barrier_free": "なし",
+                "budget": {
+                    "average": "ランチ１０００～２０００円　／ディナー５０００～６０００円",
+                    "code": "B003",
+                    "name": "3001～4000円"
+                },
+                "budget_memo": "",
+                "capacity": 40,
+                "card": "利用可",
+                "catch": "石垣島美崎牛／和牛 沖縄県糸満産／甘熟島豚",
+                "charter": "貸切可 ：お電話にてお問い合わせください。",
+                "child": "お子様連れ歓迎 ：お子様用イスあり",
+                "close": "なし",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ003324620/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ003324620/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "あり",
+                "free_drink": "あり",
+                "free_food": "なし",
+                "genre": {
+                    "catch": "国際通りドン・キホーテ近くの焼き肉店",
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "horigotatsu": "あり",
+                "id": "J003324620",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z098",
+                    "name": "沖縄"
+                },
+                "large_service_area": {
+                    "code": "SS90",
+                    "name": "九州・沖縄"
+                },
+                "lat": 26.2161519146,
+                "lng": 127.6871758979,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/42/83/P042654283/P042654283_69.jpg",
+                "lunch": "あり",
+                "middle_area": {
+                    "code": "Y961",
+                    "name": "那覇"
+                },
+                "midnight": "営業していない",
+                "mobile_access": "国際通りﾄﾞﾝ･ｷﾎｰﾃ近く",
+                "name": "琉球たれ焼肉 しゃぶしゃぶ おきなわ苑",
+                "name_kana": "りゅうきゅうたれやきにくしゃぶしゃぶおきなわえん",
+                "non_smoking": "全面禁煙",
+                "open": "月～日、祝日、祝前日: 11:30～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）",
+                "other_memo": "タッチパネルで注文できます。",
+                "parking": "あり ：最寄り有料コインパーキング",
+                "party_capacity": 50,
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/98/81/P041009881/P041009881_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/98/81/P041009881/P041009881_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/98/81/P041009881/P041009881_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/98/81/P041009881/P041009881_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/98/81/P041009881/P041009881_58_s.jpg"
+                    }
+                },
+                "private_room": "あり",
+                "service_area": {
+                    "code": "SA98",
+                    "name": "沖縄"
+                },
+                "shop_detail_memo": "英語・中国語・韓国語のメニューあり",
+                "show": "なし",
+                "small_area": {
+                    "code": "X114",
+                    "name": "国際通り"
+                },
+                "station_name": "牧志",
+                "sub_genre": {
+                    "code": "G001",
+                    "name": "居酒屋"
+                },
+                "tatami": "なし",
+                "tv": "なし",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ003324620/?vos=nhppalsa000016"
+                },
+                "wedding": "",
+                "wifi": "あり"
+            },
+            {
+                "access": "【 全席個室の焼肉食べ飲み放題居酒屋 】梅田駅⇒5分!!泉の広場すぐ♪",
+                "address": "大阪府大阪市北区太融寺町8-17　プラザ梅田ビル３Ｆ　※新御堂筋側ビル正面入口(1F東梅田薬局が目印)から3F",
+                "band": "不可",
+                "barrier_free": "なし ：お手伝いが必要な際はお気軽にお声掛けください☆",
+                "budget": {
+                    "average": "【 2728円⇒3時間食べ飲み放題 】いつでも利用OK♪",
+                    "code": "B002",
+                    "name": "2001～3000円"
+                },
+                "budget_memo": "",
+                "capacity": 350,
+                "card": "利用不可",
+                "catch": "３時間食べ飲み放題2728円 全席個室の焼き肉居酒屋♪",
+                "charter": "貸切可 ：歓送迎会のご予約も承っております♪",
+                "child": "お子様連れ歓迎 ：ご家族でのご来店お待ちしております。",
+                "close": "なし",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001267337/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ001267337/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "なし",
+                "free_drink": "あり ：豊富なドリンクメニューの付いた飲み放題コースがございます♪",
+                "free_food": "あり ：焼肉メニューに加えて居酒屋メニューも食べ放題!!",
+                "genre": {
+                    "catch": "【 全席個室の焼肉食べ飲み放題居酒屋 】",
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "horigotatsu": "あり",
+                "id": "J001267337",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z023",
+                    "name": "大阪"
+                },
+                "large_service_area": {
+                    "code": "SS20",
+                    "name": "関西"
+                },
+                "lat": 34.7016978948,
+                "lng": 135.5022878983,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/60/30/P036606030/P036606030_69.jpg",
+                "lunch": "なし",
+                "middle_area": {
+                    "code": "Y300",
+                    "name": "梅田"
+                },
+                "midnight": "営業している",
+                "mobile_access": "【 全席個室 】梅田駅⇒5分!!",
+                "name": "絆亭 KIZUNATEI 梅田店",
+                "name_kana": "やきにくたべのみこしついざかや　きずなてい　さんじかんたべのみほうだい　うめだてん",
+                "non_smoking": "禁煙席なし",
+                "open": "月～日、祝日、祝前日: 16:30～翌1:00 （料理L.O. 23:45 ドリンクL.O. 翌0:00）",
+                "other_memo": "歓送迎会のご予約も承っております♪",
+                "parking": "なし ：※近隣にコインパーキングあり",
+                "party_capacity": 140,
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/00/95/P035860095/P035860095_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/00/95/P035860095/P035860095_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/00/95/P035860095/P035860095_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/00/95/P035860095/P035860095_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/00/95/P035860095/P035860095_58_s.jpg"
+                    }
+                },
+                "private_room": "あり",
+                "service_area": {
+                    "code": "SA23",
+                    "name": "大阪"
+                },
+                "shop_detail_memo": "歓送迎会のご予約も承っております♪",
+                "show": "なし",
+                "small_area": {
+                    "code": "X315",
+                    "name": "東通り"
+                },
+                "station_name": "梅田",
+                "sub_genre": {
+                    "code": "G001",
+                    "name": "居酒屋"
+                },
+                "tatami": "あり",
+                "tv": "なし",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001267337/?vos=nhppalsa000016"
+                },
+                "wedding": "ご要望などお気軽にお問い合わせください☆",
+                "wifi": "なし"
+            },
+            {
+                "access": "鹿児島中央駅東口から徒歩4分",
+                "address": "鹿児島県鹿児島市西田1-4-26",
+                "band": "不可",
+                "barrier_free": "なし ：お手伝いが必要な方はお気軽にスタッフにお申し付けください。",
+                "budget": {
+                    "average": "5000円",
+                    "code": "B008",
+                    "name": "4001～5000円"
+                },
+                "budget_memo": "コース以外300円",
+                "capacity": 34,
+                "card": "利用可",
+                "catch": "神吉季節コースが人気★ 厳選！極コースが登場",
+                "charter": "貸切可 ：貸切宴会もご相談ください。",
+                "child": "お子様連れOK ：ご家族でもお気軽にお越しください。",
+                "close": "水",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001018140/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ001018140/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "なし",
+                "free_drink": "あり ：各コースに+1500円(乾杯生)/+2000円（生付）で飲み放題をお付けできます。",
+                "free_food": "なし ：アラカルト/コースをご用意しております。",
+                "genre": {
+                    "catch": "厳選して仕入れた黒毛和牛！本格炭火焼き肉",
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "horigotatsu": "あり ：ゆったり足を伸ばしておくつろぎいただけます。",
+                "id": "J001018140",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z097",
+                    "name": "鹿児島"
+                },
+                "large_service_area": {
+                    "code": "SS90",
+                    "name": "九州・沖縄"
+                },
+                "lat": 31.5865800242,
+                "lng": 130.5444586429,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/39/20/P039763920/P039763920_69.jpg",
+                "lunch": "なし",
+                "middle_area": {
+                    "code": "Y780",
+                    "name": "鹿児島市　天文館・中央駅・ふ頭"
+                },
+                "midnight": "営業していない",
+                "mobile_access": "鹿児島中央駅東口から徒歩4分",
+                "name": "焼肉 炭火 神吉 かんきち",
+                "name_kana": "やきにくすみびかんきち",
+                "non_smoking": "全面禁煙",
+                "open": "月、火、木～日、祝日、祝前日: 17:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:00）",
+                "other_memo": "炭火で焼く本格焼肉が愉しめます。",
+                "parking": "なし ：お近くのコインパーキングをご利用ください。",
+                "party_capacity": 28,
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/43/65/P041024365/P041024365_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/43/65/P041024365/P041024365_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/43/65/P041024365/P041024365_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/43/65/P041024365/P041024365_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/43/65/P041024365/P041024365_58_s.jpg"
+                    }
+                },
+                "private_room": "あり ：掘りごたつ席/カウンター席のみのご用意となります。",
+                "service_area": {
+                    "code": "SA97",
+                    "name": "鹿児島"
+                },
+                "shop_detail_memo": "厳選して仕入れた良質な肉を愉しめるコースは5000円～ご用意しております。",
+                "show": "なし",
+                "small_area": {
+                    "code": "X781",
+                    "name": "鹿児島中央"
+                },
+                "station_name": "鹿児島中央",
+                "sub_genre": {
+                    "code": "G004",
+                    "name": "和食"
+                },
+                "tatami": "なし ：掘りごたつ席/カウンター席のみのご用意となります。",
+                "tv": "なし",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001018140/?vos=nhppalsa000016"
+                },
+                "wedding": "お気軽にご相談ください。",
+                "wifi": "あり"
+            },
+            {
+                "access": "高城駅より徒歩10分",
+                "address": "大分県大分市仲西町２-4-6",
+                "band": "不可",
+                "barrier_free": "なし ：2階席がございます。1階がよろしい方はお問い合わせください。",
+                "budget": {
+                    "average": "4000円",
+                    "code": "B008",
+                    "name": "4001～5000円"
+                },
+                "budget_memo": "",
+                "capacity": 40,
+                "card": "利用可",
+                "catch": "数量限定の人気メニュー！ 誕生日・記念日は焼き肉式",
+                "charter": "貸切不可 ：要相談",
+                "child": "お子様連れOK ：要相談",
+                "close": "月",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001209149/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ001209149/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "なし",
+                "free_drink": "なし ：思う存分、焼肉をお楽しみいただけるように今後ご用意予定です！",
+                "free_food": "なし ：焼肉の盛り合わせやコースをご用意しております",
+                "genre": {
+                    "catch": "個室あり・ランチ・誕生日・焼肉・高城",
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "horigotatsu": "あり ：お座敷個室をご用意。",
+                "id": "J001209149",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z095",
+                    "name": "大分"
+                },
+                "large_service_area": {
+                    "code": "SS90",
+                    "name": "九州・沖縄"
+                },
+                "lat": 33.2449131302,
+                "lng": 131.6619371867,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/59/09/P031485909/P031485909_69.jpg",
+                "lunch": "なし",
+                "middle_area": {
+                    "code": "Y750",
+                    "name": "大分市"
+                },
+                "midnight": "営業している",
+                "mobile_access": "高城駅より徒歩10分",
+                "name": "焼肉 式 しき 大分店",
+                "name_kana": "やきにくしき　おおいたてん",
+                "non_smoking": "禁煙席なし",
+                "open": "火～日、祝日、祝前日: 10:00～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～翌3:00 （料理L.O. 翌2:00 ドリンクL.O. 翌2:00）",
+                "other_memo": "",
+                "parking": "なし ：お店の前に駐車場がございます。",
+                "party_capacity": 54,
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/91/63/P038619163/P038619163_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/91/63/P038619163/P038619163_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/91/63/P038619163/P038619163_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/91/63/P038619163/P038619163_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/91/63/P038619163/P038619163_58_s.jpg"
+                    }
+                },
+                "private_room": "あり ：多種多彩な個室をご用意。",
+                "service_area": {
+                    "code": "SA95",
+                    "name": "大分"
+                },
+                "shop_detail_memo": "",
+                "show": "なし",
+                "small_area": {
+                    "code": "XVI2",
+                    "name": "高城・牧・下郡"
+                },
+                "station_name": "高城",
+                "sub_genre": {
+                    "code": "G017",
+                    "name": "韓国料理"
+                },
+                "tatami": "あり ：お座敷個室をご用意。",
+                "tv": "あり",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001209149/?vos=nhppalsa000016"
+                },
+                "wedding": "",
+                "wifi": "未確認"
+            },
+            {
+                "access": "【駐車場36台完備！】",
+                "address": "愛知県日進市梅森台１-183",
+                "band": "不可",
+                "barrier_free": "なし",
+                "budget": {
+                    "average": "お得なコースは2800円(税込)～",
+                    "code": "B003",
+                    "name": "3001～4000円"
+                },
+                "budget_memo": "お問い合わせなど、お気軽にお電話ください♪",
+                "capacity": 88,
+                "card": "利用可",
+                "catch": "日進店限！食べ放題！ 【定食以上、割烹未満】",
+                "charter": "貸切可 ：お気軽にご相談ください。",
+                "child": "お子様連れ歓迎 ：お子様連れ大歓迎です♪",
+                "close": "年中無休/不定休",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001281751/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ001281751/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "なし",
+                "free_drink": "あり ：アルコール/ソフトドリンク飲み放題ご用意しております！",
+                "free_food": "なし ：こだわりの1品をお楽しみください！",
+                "genre": {
+                    "catch": "焼肉 焼き肉 ランチ 肉 飲み放題 食べ放題",
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "horigotatsu": "なし ：ご用意しておりません。",
+                "id": "J001281751",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z033",
+                    "name": "愛知"
+                },
+                "large_service_area": {
+                    "code": "SS30",
+                    "name": "東海"
+                },
+                "lat": 35.1335181458,
+                "lng": 137.0155360868,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/48/84/P042154884/P042154884_69.jpg",
+                "lunch": "あり",
+                "middle_area": {
+                    "code": "Y995",
+                    "name": "愛知県その他"
+                },
+                "midnight": "営業していない",
+                "mobile_access": "【駐車場36台完備!】",
+                "name": "お米と焼肉 肉のよいち 日進梅森店",
+                "name_kana": "おこめとやきにく　にくのよいち　にっしんうめもりてん",
+                "non_smoking": "全面禁煙",
+                "open": "月～日、祝日、祝前日: 11:00～15:00 （料理L.O. 14:00 ドリンクL.O. 14:00）17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+                "other_memo": "配膳はロボットが行います♪ぜひ見に来てください♪",
+                "parking": "あり ：36台完備！",
+                "party_capacity": 88,
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/48/92/P042154892/P042154892_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/48/92/P042154892/P042154892_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/48/92/P042154892/P042154892_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/48/92/P042154892/P042154892_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/48/92/P042154892/P042154892_58_s.jpg"
+                    }
+                },
+                "private_room": "なし ：ご用意しておりません。",
+                "service_area": {
+                    "code": "SA33",
+                    "name": "愛知"
+                },
+                "shop_detail_memo": "飲み放題付きコース3900円～♪",
+                "show": "なし",
+                "small_area": {
+                    "code": "XHJL",
+                    "name": "日進市"
+                },
+                "station_name": "平針",
+                "sub_genre": {
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "tatami": "なし ：ご用意しておりません。",
+                "tv": "なし",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001281751/?vos=nhppalsa000016"
+                },
+                "wedding": "",
+                "wifi": "あり"
+            },
+            {
+                "access": "JR東京駅八重洲北口徒歩3分/東京メトロ銀座線・東西線・都営浅草線日本橋駅B3出口徒歩1分/HUB八重洲店の隣です。",
+                "address": "東京都中央区日本橋３－２－３　第一山本ビル３F・４F",
+                "band": "不可",
+                "barrier_free": "なし",
+                "budget": {
+                    "average": "焼きとん１本120円～！/単品飲み放題1980円★税込み",
+                    "code": "B002",
+                    "name": "2001～3000円"
+                },
+                "budget_memo": "お通し代300円！",
+                "capacity": 85,
+                "card": "利用可",
+                "catch": "【ホルモンの旨さの秘密】 喫煙可能なお店♪",
+                "charter": "貸切可 ：フロア貸切は25名様～可能です★お気軽にご相談下さい!!",
+                "child": "お子様連れOK",
+                "close": "日",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001233792/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ001233792/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "なし",
+                "free_drink": "あり ：2時間198円★",
+                "free_food": "なし",
+                "genre": {
+                    "catch": "東京駅 八重洲 焼き肉 ホルモン 炭火焼 肉",
+                    "code": "G001",
+                    "name": "居酒屋"
+                },
+                "horigotatsu": "なし",
+                "id": "J001233792",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z011",
+                    "name": "東京"
+                },
+                "large_service_area": {
+                    "code": "SS10",
+                    "name": "関東"
+                },
+                "lat": 35.6805710336,
+                "lng": 139.7715274762,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/72/22/P041957222/P041957222_69.jpg",
+                "lunch": "なし",
+                "middle_area": {
+                    "code": "Y010",
+                    "name": "東京・大手町・日本橋・人形町"
+                },
+                "midnight": "営業していない",
+                "mobile_access": "HUB八重洲店の隣です｡",
+                "name": "朝〆直送 やきとん酒場 井上臓器 八重洲店",
+                "name_kana": "ぜんせききつえんかあさじめちょくそうやきとんさかばいのうえぞうきやえすてん",
+                "non_smoking": "禁煙席なし",
+                "open": "月～金: 17:00～23:15 （料理L.O. 22:30 ドリンクL.O. 22:30）土: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）祝日: 17:00～23:00 （料理L.O. 22:30 ドリンクL.O. 22:45）祝前日: 17:00～23:15 （料理L.O. 22:30 ドリンクL.O. 23:00）",
+                "other_memo": "",
+                "parking": "なし",
+                "party_capacity": 85,
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/52/70/P042355270/P042355270_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/52/70/P042355270/P042355270_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/52/70/P042355270/P042355270_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/52/70/P042355270/P042355270_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/52/70/P042355270/P042355270_58_s.jpg"
+                    }
+                },
+                "private_room": "なし ：半個室ございます！お気軽にお問い合わせ下さい！",
+                "service_area": {
+                    "code": "SA11",
+                    "name": "東京"
+                },
+                "shop_detail_memo": "",
+                "show": "なし",
+                "small_area": {
+                    "code": "X040",
+                    "name": "八重洲"
+                },
+                "station_name": "日本橋",
+                "sub_genre": {
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "tatami": "なし",
+                "tv": "なし",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001233792/?vos=nhppalsa000016"
+                },
+                "wedding": "",
+                "wifi": "なし"
+            },
+            {
+                "access": "【西新宿】E8出口 徒歩1分/ＪＲ 新宿駅 西口 徒歩5分　",
+                "address": "東京都新宿区西新宿７-13-7 第二紀州ビルB１F　101",
+                "band": "不可",
+                "barrier_free": "なし ：新宿西口店にはご用意ございませんが段差はありません。不便な際はスタッフがお手伝いさせていただきます",
+                "budget": {
+                    "average": "ディナー2800円 ",
+                    "code": "B002",
+                    "name": "2001～3000円"
+                },
+                "budget_memo": "お気軽にお問合せ下さい♪",
+                "capacity": 55,
+                "card": "利用可",
+                "catch": "本格肉料理が食べ放題♪ 広々プライベート個室♪",
+                "charter": "貸切可 ：※貸切は要相談となります。",
+                "child": "お子様連れ歓迎 ：混み合う場合もある為早めの時間でしたらお子様連れOKです。個室席のご用意もあるのでお子様連れでも安心♪",
+                "close": "なし",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001209629/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ001209629/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "あり",
+                "free_drink": "あり ：飲み放題メニューあり",
+                "free_food": "あり ：食べ放題メニューあり",
+                "genre": {
+                    "catch": "西新宿5分 食べ飲み放題  NO.1炭焼き肉バル",
+                    "code": "G001",
+                    "name": "居酒屋"
+                },
+                "horigotatsu": "なし ：掘りごたつは無いですが、ソファ席ございます※貸切は要相談となります。",
+                "id": "J001209629",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z011",
+                    "name": "東京"
+                },
+                "large_service_area": {
+                    "code": "SS10",
+                    "name": "関東"
+                },
+                "lat": 35.6946424404,
+                "lng": 139.6963846848,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/77/25/P036097725/P036097725_69.jpg",
+                "lunch": "あり",
+                "middle_area": {
+                    "code": "Y055",
+                    "name": "新宿"
+                },
+                "midnight": "営業している",
+                "mobile_access": "【西新宿】E8出口 徒歩1分/JR【新宿駅】西口徒歩5分",
+                "name": "バルデエスパーニャ トロ TORO 新宿西口店",
+                "name_kana": "すぺいんりょうり　さんじかんたべのみほうだい　ばるでえすぱーにゃ　とろ　しんじゅくにしぐちてん",
+                "non_smoking": "全面禁煙",
+                "open": "月～日、祝日、祝前日: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
+                "other_memo": "マイク・DVDプレーヤー・プロジェクター・スクリーンなど無料設備充実",
+                "parking": "なし ：新宿という土地柄の為、専用の駐車場のご用意はありません。近くにパーキングを利用下さいませ。新宿駅近♪",
+                "party_capacity": 70,
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/59/15/P036955915/P036955915_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/59/15/P036955915/P036955915_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/59/15/P036955915/P036955915_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/59/15/P036955915/P036955915_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/59/15/P036955915/P036955915_58_s.jpg"
+                    }
+                },
+                "private_room": "あり ：個室は無いですが、ソファ席ございます※貸切は要相談となります。",
+                "service_area": {
+                    "code": "SA11",
+                    "name": "東京"
+                },
+                "shop_detail_memo": "当日のキャンセルはキャンセル料が発生します。大型宴会・貸切の場合のキャンセルはお問い合わせください。",
+                "show": "なし",
+                "small_area": {
+                    "code": "X160",
+                    "name": "新宿西口"
+                },
+                "station_name": "新宿西口",
+                "sub_genre": {
+                    "code": "G002",
+                    "name": "ダイニングバー・バル"
+                },
+                "tatami": "なし ：座敷は無いですが、ソファ席ございます※貸切は要相談となります。",
+                "tv": "あり",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001209629/?vos=nhppalsa000016"
+                },
+                "wedding": "貸切の婚礼など実績多数!!お気軽にご相談下さい。カジュアルな２次会などにも♪",
+                "wifi": "あり"
+            },
+            {
+                "access": "東京都足立区千住2-54-2北千住ハリウッドビル３Ｆ 北千住駅西口ロータリーを出ると、左前方に『気分はお肉』の看板あり",
+                "address": "東京都足立区千住２-54-2北千住ハリウッドビル3F",
+                "band": "不可",
+                "barrier_free": "なし",
+                "budget": {
+                    "average": "",
+                    "code": "B003",
+                    "name": "3001～4000円"
+                },
+                "budget_memo": "",
+                "capacity": 150,
+                "card": "利用可",
+                "catch": "お客様還元！食べ飲み放題 ☆お得なプラン☆",
+                "charter": "貸切不可",
+                "child": "お子様連れ歓迎",
+                "close": "無休☆北千住での飲み会、友人や家族との食事等、幅広いシーンにおすすめの焼き肉食べ放題!!お近くにきた際はお立ち寄りください",
+                "coupon_urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001294371/map/?vos=nhppalsa000016",
+                    "sp": "https://www.hotpepper.jp/strJ001294371/scoupon/?vos=nhppalsa000016"
+                },
+                "course": "あり",
+                "english": "なし",
+                "free_drink": "あり",
+                "free_food": "あり",
+                "genre": {
+                    "catch": "北千住 焼き肉食べ放題 宴会 会食 完全個室",
+                    "code": "G001",
+                    "name": "居酒屋"
+                },
+                "horigotatsu": "あり ：6名様から最大36名様までご利用いただけます。",
+                "id": "J001294371",
+                "karaoke": "なし",
+                "ktai_coupon": 0,
+                "large_area": {
+                    "code": "Z011",
+                    "name": "東京"
+                },
+                "large_service_area": {
+                    "code": "SS10",
+                    "name": "関東"
+                },
+                "lat": 35.7498390895,
+                "lng": 139.8034964154,
+                "logo_image": "https://imgfp.hotp.jp/IMGH/14/35/P042381435/P042381435_69.jpg",
+                "lunch": "あり",
+                "middle_area": {
+                    "code": "Y016",
+                    "name": "北千住・日暮里・葛飾・荒川"
+                },
+                "midnight": "営業していない",
+                "mobile_access": "北千住駅西口ﾛｰﾀﾘｰ左前方に気分はお肉看の板あり",
+                "name": "気分はお肉 北千住店",
+                "name_kana": "きぶんはおにく　きたせんじゅてん",
+                "non_smoking": "全面禁煙",
+                "open": "月～木、日、祝日: 11:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）金、土、祝前日: 11:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）",
+                "other_memo": "",
+                "parking": "なし",
+                "party_capacity": 50,
+                "pet": "不可",
+                "photo": {
+                    "mobile": {
+                        "l": "https://imgfp.hotp.jp/IMGH/46/51/P042614651/P042614651_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/46/51/P042614651/P042614651_100.jpg"
+                    },
+                    "pc": {
+                        "l": "https://imgfp.hotp.jp/IMGH/46/51/P042614651/P042614651_238.jpg",
+                        "m": "https://imgfp.hotp.jp/IMGH/46/51/P042614651/P042614651_168.jpg",
+                        "s": "https://imgfp.hotp.jp/IMGH/46/51/P042614651/P042614651_58_s.jpg"
+                    }
+                },
+                "private_room": "あり ：6名様から最大36名様までご利用いただけます。",
+                "service_area": {
+                    "code": "SA11",
+                    "name": "東京"
+                },
+                "shop_detail_memo": "お子様料金について★食べ放題プランは小学生未満のお客様⇒無料、小学生のお客様⇒半額",
+                "show": "なし",
+                "small_area": {
+                    "code": "X192",
+                    "name": "北千住"
+                },
+                "station_name": "北千住",
+                "sub_genre": {
+                    "code": "G008",
+                    "name": "焼肉・ホルモン"
+                },
+                "tatami": "なし",
+                "tv": "なし",
+                "urls": {
+                    "pc": "https://www.hotpepper.jp/strJ001294371/?vos=nhppalsa000016"
+                },
+                "wedding": "",
+                "wifi": "あり"
+            }
+        ]
+    }
+}

@@ -31,11 +31,5 @@ struct RestaurantCellView: View {
 
 
 #Preview("cell", traits: .sizeThatFitsLayout) {
-        RestaurantListView(restaurants: [Restaurant(id: "9999",
-                                                    name: "琉球たれ焼肉 しゃぶしゃぶ おきなわ苑",
-                                                    address: "hoge",
-                                                    shopDetailMemo: "hoge detail",
-                                                    logoImageUrl: "https://imgfp.hotp.jp/IMGH/76/11/P037227611/P037227611_69.jpg",
-                                                    genre: Restaurant.Genre(id: "9999",
-                                                                            name: "genre"))])
+    RestaurantCellView(restaurant: Restaurant.sample)
 }

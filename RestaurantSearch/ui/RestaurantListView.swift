@@ -28,38 +28,20 @@ struct RestaurantListView: View {
 
 #Preview {
     NavigationStack {
-        RestaurantListView(restaurants: [Restaurant(id: "9999",
-                                                    name: "hoge",
-                                                    address: "hoge",
-                                                    shopDetailMemo: "hoge detail",
-                                                    logoImageUrl: "",
-                                                    genre: Restaurant.Genre(id: "",
-                                                                            name: "genre"))])
+        RestaurantListView(restaurants: Restaurant.samples)
     }
 }
 
 
 #Preview("landscape left" ,traits: .landscapeLeft) {
     NavigationStack {
-        RestaurantListView(restaurants: [Restaurant(id: "9999",
-                                                    name: "hoge",
-                                                    address: "hoge",
-                                                    shopDetailMemo: "hoge detail",
-                                                    logoImageUrl: "",
-                                                    genre: Restaurant.Genre(id: "",
-                                                                            name: "genre"))])
+        RestaurantListView(restaurants: Restaurant.samples)
     }
 }
 
 #Preview("landscape right", traits: .landscapeRight) {
     NavigationStack {
-        RestaurantListView(restaurants: [Restaurant(id: "9999",
-                                                    name: "hoge",
-                                                    address: "hoge",
-                                                    shopDetailMemo: "hoge detail",
-                                                    logoImageUrl: "",
-                                                    genre: Restaurant.Genre(id: "",
-                                                                            name: "genre"))])
+        RestaurantListView(restaurants: Restaurant.samples)
     }
 }
 
