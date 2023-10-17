@@ -12,17 +12,34 @@ struct Restaurant: Codable, Identifiable {
     var id: String
     var name: String
     var address: String
+    var access: String
+    var open: String
+    var budget: Budget
     var shopDetailMemo: String
     var logoImageUrl: String
     var genre: Genre
+    var photo: Photo
 
     enum CodingKeys: String, CodingKey {
         case id
         case name
         case address
+        case access
+        case open
+        case budget
         case shopDetailMemo = "shop_detail_memo"
         case logoImageUrl = "logo_image"
         case genre
+        case photo
+    }
+
+
+    struct Budget: Codable {
+        var average: String
+
+        enum CodingKeys: String, CodingKey {
+            case average
+        }
     }
 
 
@@ -33,6 +50,28 @@ struct Restaurant: Codable, Identifiable {
         enum CodingKeys: String, CodingKey {
             case id = "code"
             case name
+        }
+    }
+
+
+    struct Photo: Codable {
+        var mobile: ImageUrl
+        var pc: ImageUrl
+
+        enum CodingKeys: String, CodingKey {
+            case mobile
+            case pc
+        }
+
+
+        struct ImageUrl: Codable {
+            var large: String
+            var small: String
+
+            enum CodingKeys: String, CodingKey {
+                case large = "l"
+                case small = "s"
+            }
         }
     }
 }

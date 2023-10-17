@@ -15,7 +15,7 @@ struct RestaurantListView: View {
     var body: some View {
         List {
             ForEach(restaurants) { restaurant in
-                NavigationLink(destination: Text(restaurant.name)) {
+                NavigationLink(destination: RestaurantDetailView(restaurant: restaurant)) {
                     RestaurantCellView(restaurant: restaurant)
                 }
             }
