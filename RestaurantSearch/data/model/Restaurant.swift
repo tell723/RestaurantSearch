@@ -19,6 +19,8 @@ struct Restaurant: Codable, Identifiable {
     var logoImageUrl: String
     var genre: Genre
     var photo: Photo
+    var lat: Double
+    var lng: Double
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -31,6 +33,8 @@ struct Restaurant: Codable, Identifiable {
         case logoImageUrl = "logo_image"
         case genre
         case photo
+        case lat
+        case lng
     }
 
 
