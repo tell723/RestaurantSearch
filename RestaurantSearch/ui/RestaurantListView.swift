@@ -11,13 +11,16 @@ import SwiftUI
 struct RestaurantListView: View {
 
     var restaurants: [Restaurant]
+    var onRestaurantSelectedAction: ((Restaurant) -> Void)?
 
     var body: some View {
         List {
             ForEach(restaurants) { restaurant in
-                NavigationLink(destination: RestaurantDetailView(restaurant: restaurant)) {
-                    RestaurantCellView(restaurant: restaurant)
-                }
+                RestaurantCellView(restaurant: restaurant)
+                    .onTapGesture {
+                        guard let action = onRestaurantSelectedAction else { return }
+                        action(restaurant)
+                    }
             }
         }
     }

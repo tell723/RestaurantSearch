@@ -11,16 +11,26 @@ import SwiftUI
 
 struct RestaurantSearchResultView: View {
 
-    var searchKeyword: String
+    let searchKeyword: String
     @State var searchedRestaurants: [Restaurant] = []
+    @State var selectedRestaurant: Restaurant?
+    @State var isRestaurantSelected: Bool = false
 
     var body: some View {
-        RestaurantListView(restaurants: self.searchedRestaurants)
-            .task {
-                Task {
-                    let restaurants = await RestaurantRepository().fetchRestaurants(keyword: searchKeyword)
-                    self.searchedRestaurants = restaurants
-                }
+        RestaurantListView(restaurants: self.searchedRestaurants) { selectedRestaurant in
+            self.selectedRestaurant = selectedRestaurant
+            isRestaurantSelected = true
+        }
+        .task {
+            Task {
+                let restaurants = await RestaurantRepository().fetchRestaurants(keyword: searchKeyword)
+                self.searchedRestaurants = restaurants
             }
+        }
+        if let res = self.selectedRestaurant {
+            NavigationLink(destination: RestaurantDetailView(restaurant: res), isActive: $isRestaurantSelected) {
+                EmptyView()
+            }
+        }
     }
 }
