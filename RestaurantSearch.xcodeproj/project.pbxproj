@@ -26,6 +26,7 @@
 		5BD6C4762ACB975E00EED2E6 /* HpGourmetSearchAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6C4752ACB975E00EED2E6 /* HpGourmetSearchAPIResponse.swift */; };
 		5BD6C4782ACBAA4300EED2E6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6C4772ACBAA4300EED2E6 /* Constants.swift */; };
 		5BFF3AB12AE55D6A0043FDA7 /* RestaurantMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF3AB02AE55D6A0043FDA7 /* RestaurantMapView.swift */; };
+		5BFF3AB32AE5E1260043FDA7 /* RestaurantSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF3AB22AE5E1260043FDA7 /* RestaurantSearchResultView.swift */; };
 		5BFF8EAE2AD4E71B007FCD67 /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF8EAD2AD4E71B007FCD67 /* RestaurantListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		5BD6C4752ACB975E00EED2E6 /* HpGourmetSearchAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HpGourmetSearchAPIResponse.swift; sourceTree = "<group>"; };
 		5BD6C4772ACBAA4300EED2E6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5BFF3AB02AE55D6A0043FDA7 /* RestaurantMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMapView.swift; sourceTree = "<group>"; };
+		5BFF3AB22AE5E1260043FDA7 /* RestaurantSearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSearchResultView.swift; sourceTree = "<group>"; };
 		5BFF8EAD2AD4E71B007FCD67 /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,6 +212,7 @@
 				5B391D0A2ADABBE3007C5BE1 /* RestaurantCellView.swift */,
 				5B391D0C2ADBA359007C5BE1 /* RestaurantDetailView.swift */,
 				5BFF3AB02AE55D6A0043FDA7 /* RestaurantMapView.swift */,
+				5BFF3AB22AE5E1260043FDA7 /* RestaurantSearchResultView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				5B3C20CA2ACAFD220001096E /* RestaurantSearchApp.swift in Sources */,
 				5BD6C4762ACB975E00EED2E6 /* HpGourmetSearchAPIResponse.swift in Sources */,
 				5BFF8EAE2AD4E71B007FCD67 /* RestaurantListView.swift in Sources */,
+				5BFF3AB32AE5E1260043FDA7 /* RestaurantSearchResultView.swift in Sources */,
 				5B3C20FE2ACB03A80001096E /* RestaurantRepository.swift in Sources */,
 				5B3C20F72ACAFE4D0001096E /* Restaurant.swift in Sources */,
 				5B3C21062ACB8C9A0001096E /* HpGourmetSearchAPIResult.swift in Sources */,

@@ -12,7 +12,7 @@ import MapKit
 
 struct RestaurantDetailView: View {
 
-    @State var restaurant: Restaurant
+    let restaurant: Restaurant
     @State var isMapModalPresented: Bool = false
 
     var body: some View {

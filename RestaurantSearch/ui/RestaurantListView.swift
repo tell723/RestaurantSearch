@@ -10,7 +10,7 @@ import SwiftUI
 
 struct RestaurantListView: View {
 
-    @State var restaurants: [Restaurant]
+    var restaurants: [Restaurant]
 
     var body: some View {
         List {

@@ -11,29 +11,24 @@ import SwiftUI
 struct ContentView: View {
 
     @State var keyword: String = ""
-    @State var restaurants: [Restaurant] = []
-    @State private var searchFinished = false
+    @State var isResultPresented = false
 
     var body: some View {
         NavigationView {
             HStack(spacing: 10) {
                 TextField("keyword", text: $keyword) {
-
                 }
                 .padding(20)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                NavigationLink(destination: RestaurantListView(restaurants: restaurants),
-                               isActive: $searchFinished) {
-                    Button(action: {
-                        Task {
-                            let restaurants = await RestaurantRepository().fetchRestaurants(keyword: keyword)
-                            restaurants.forEach { print($0) }
-                            self.restaurants = restaurants
-                            searchFinished.toggle()
-                        }
-                    }, label: {
-                        Text("search")
-                    })
+                NavigationLink(destination: RestaurantSearchResultView(searchKeyword: keyword),
+                               isActive: $isResultPresented) {
+                    EmptyView()
+                }
+
+                Button {
+                    isResultPresented = true
+                } label: {
+                    Text("search")
                 }
             }
             .padding(20)
