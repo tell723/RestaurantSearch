@@ -20,9 +20,10 @@
 		5B3C20E72ACAFD250001096E /* RestaurantSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C20E62ACAFD250001096E /* RestaurantSearchUITestsLaunchTests.swift */; };
 		5B3C20F72ACAFE4D0001096E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C20F62ACAFE4D0001096E /* Restaurant.swift */; };
 		5B3C20FB2ACB01140001096E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C20FA2ACB01140001096E /* APIClient.swift */; };
-		5B3C20FE2ACB03A80001096E /* RestaurantRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C20FD2ACB03A80001096E /* RestaurantRepository.swift */; };
+		5B3C20FE2ACB03A80001096E /* RestaurantRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C20FD2ACB03A80001096E /* RestaurantRepositoryDefault.swift */; };
 		5B3C21042ACB8B940001096E /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C21032ACB8B940001096E /* HttpError.swift */; };
 		5B3C21062ACB8C9A0001096E /* HpGourmetSearchAPIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C21052ACB8C9A0001096E /* HpGourmetSearchAPIResult.swift */; };
+		5B9C5F6A2AE9FB86001BCD07 /* MockedRestaurantRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C5F692AE9FB86001BCD07 /* MockedRestaurantRepository.swift */; };
 		5BD6C4762ACB975E00EED2E6 /* HpGourmetSearchAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6C4752ACB975E00EED2E6 /* HpGourmetSearchAPIResponse.swift */; };
 		5BD6C4782ACBAA4300EED2E6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6C4772ACBAA4300EED2E6 /* Constants.swift */; };
 		5BFF3AB12AE55D6A0043FDA7 /* RestaurantMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF3AB02AE55D6A0043FDA7 /* RestaurantMapView.swift */; };
@@ -64,9 +65,10 @@
 		5B3C20E62ACAFD250001096E /* RestaurantSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5B3C20F62ACAFE4D0001096E /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		5B3C20FA2ACB01140001096E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		5B3C20FD2ACB03A80001096E /* RestaurantRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRepository.swift; sourceTree = "<group>"; };
+		5B3C20FD2ACB03A80001096E /* RestaurantRepositoryDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRepositoryDefault.swift; sourceTree = "<group>"; };
 		5B3C21032ACB8B940001096E /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		5B3C21052ACB8C9A0001096E /* HpGourmetSearchAPIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HpGourmetSearchAPIResult.swift; sourceTree = "<group>"; };
+		5B9C5F692AE9FB86001BCD07 /* MockedRestaurantRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedRestaurantRepository.swift; sourceTree = "<group>"; };
 		5BD6C4752ACB975E00EED2E6 /* HpGourmetSearchAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HpGourmetSearchAPIResponse.swift; sourceTree = "<group>"; };
 		5BD6C4772ACBAA4300EED2E6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5BFF3AB02AE55D6A0043FDA7 /* RestaurantMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMapView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		5B3C20CF2ACAFD250001096E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				5B9C5F682AE9FB4F001BCD07 /* mock */,
 				5B3C20D02ACAFD250001096E /* Preview Assets.xcassets */,
 				5B391D0E2ADBB576007C5BE1 /* hp_api_sample.json */,
 				5B391D102ADBB607007C5BE1 /* Restaurant+SampleData.swift */,
@@ -192,7 +195,7 @@
 		5B3C20FC2ACB03880001096E /* repository */ = {
 			isa = PBXGroup;
 			children = (
-				5B3C20FD2ACB03A80001096E /* RestaurantRepository.swift */,
+				5B3C20FD2ACB03A80001096E /* RestaurantRepositoryDefault.swift */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -203,6 +206,14 @@
 				5B3C21032ACB8B940001096E /* HttpError.swift */,
 			);
 			path = error;
+			sourceTree = "<group>";
+		};
+		5B9C5F682AE9FB4F001BCD07 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				5B9C5F692AE9FB86001BCD07 /* MockedRestaurantRepository.swift */,
+			);
+			path = mock;
 			sourceTree = "<group>";
 		};
 		5BFF8EAC2AD4E68C007FCD67 /* ui */ = {
@@ -355,13 +366,14 @@
 				5BD6C4762ACB975E00EED2E6 /* HpGourmetSearchAPIResponse.swift in Sources */,
 				5BFF8EAE2AD4E71B007FCD67 /* RestaurantListView.swift in Sources */,
 				5BFF3AB32AE5E1260043FDA7 /* RestaurantSearchResultView.swift in Sources */,
-				5B3C20FE2ACB03A80001096E /* RestaurantRepository.swift in Sources */,
+				5B3C20FE2ACB03A80001096E /* RestaurantRepositoryDefault.swift in Sources */,
 				5B3C20F72ACAFE4D0001096E /* Restaurant.swift in Sources */,
 				5B3C21062ACB8C9A0001096E /* HpGourmetSearchAPIResult.swift in Sources */,
 				5B391D0B2ADABBE3007C5BE1 /* RestaurantCellView.swift in Sources */,
 				5B391D0D2ADBA359007C5BE1 /* RestaurantDetailView.swift in Sources */,
 				5B3C21042ACB8B940001096E /* HttpError.swift in Sources */,
 				5B3C20FB2ACB01140001096E /* APIClient.swift in Sources */,
+				5B9C5F6A2AE9FB86001BCD07 /* MockedRestaurantRepository.swift in Sources */,
 				5BD6C4782ACBAA4300EED2E6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

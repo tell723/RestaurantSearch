@@ -12,6 +12,7 @@ import SwiftUI
 struct RestaurantSearchResultView: View {
 
     let searchKeyword: String
+    @Environment(\.restaurantRepository) private var restaurantRepository
     @State var searchedRestaurants: [Restaurant] = []
     @State var selectedRestaurant: Restaurant?
     @State var isRestaurantSelected: Bool = false
@@ -23,7 +24,7 @@ struct RestaurantSearchResultView: View {
         }
         .task {
             Task {
-                let restaurants = await RestaurantRepository().fetchRestaurants(keyword: searchKeyword)
+                let restaurants = await restaurantRepository.fetchRestaurants(keyword: searchKeyword)
                 self.searchedRestaurants = restaurants
             }
         }
@@ -33,4 +34,12 @@ struct RestaurantSearchResultView: View {
             }
         }
     }
+}
+
+
+#Preview {
+    NavigationView {
+        RestaurantSearchResultView(searchKeyword: "")
+    }
+    .environment(\.restaurantRepository, MockedRestaurantRepository())
 }
