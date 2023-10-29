@@ -16,21 +16,31 @@ struct RestaurantSearchResultView: View {
     @State var searchedRestaurants: [Restaurant] = []
     @State var selectedRestaurant: Restaurant?
     @State var isRestaurantSelected: Bool = false
+    @State var isFetchingData: Bool = false
 
     var body: some View {
-        RestaurantListView(restaurants: self.searchedRestaurants) { selectedRestaurant in
-            self.selectedRestaurant = selectedRestaurant
-            isRestaurantSelected = true
-        }
-        .task {
-            Task {
-                let restaurants = await restaurantRepository.fetchRestaurants(keyword: searchKeyword)
-                self.searchedRestaurants = restaurants
+        ZStack {
+            RestaurantListView(restaurants: self.searchedRestaurants) { selectedRestaurant in
+                self.selectedRestaurant = selectedRestaurant
+                isRestaurantSelected = true
             }
-        }
-        if let res = self.selectedRestaurant {
-            NavigationLink(destination: RestaurantDetailView(restaurant: res), isActive: $isRestaurantSelected) {
-                EmptyView()
+            .task {
+                Task {
+                    isFetchingData = true
+                    let restaurants = await restaurantRepository.fetchRestaurants(keyword: searchKeyword)
+                    self.searchedRestaurants = restaurants
+                    isFetchingData = false
+                }
+            }
+
+            if isFetchingData {
+                ProgressView()
+            }
+
+            if let res = self.selectedRestaurant {
+                NavigationLink(destination: RestaurantDetailView(restaurant: res), isActive: $isRestaurantSelected) {
+                    EmptyView()
+                }
             }
         }
     }
