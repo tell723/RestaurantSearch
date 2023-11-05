@@ -37,10 +37,10 @@ struct RestaurantSearchResultView: View {
                 ProgressView()
             }
 
-            if let res = self.selectedRestaurant {
-                NavigationLink(destination: RestaurantDetailView(restaurant: res), isActive: $isRestaurantSelected) {
-                    EmptyView()
-                }
+            ForEach(searchedRestaurants) { restaurant in
+                    NavigationLink(destination: RestaurantDetailView(restaurant: restaurant), isActive: $isRestaurantSelected) {
+                        EmptyView()
+                    }
             }
         }
     }
