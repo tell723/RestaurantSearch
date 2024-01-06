@@ -10,8 +10,8 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @State var keyword: String = ""
-    @State var isResultPresented = false
+    @State private var keyword: String = ""
+    @State private var isResultPresented = false
 
     var body: some View {
         NavigationView {

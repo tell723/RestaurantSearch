@@ -11,7 +11,7 @@ import SwiftUI
 
 struct RestaurantCellView: View {
 
-    @State var restaurant: Restaurant
+    @State private var restaurant: Restaurant
 
     var body: some View {
         HStack {

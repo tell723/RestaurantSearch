@@ -13,10 +13,10 @@ struct RestaurantSearchResultView: View {
 
     let searchKeyword: String
     @Environment(\.restaurantRepository) private var restaurantRepository
-    @State var searchedRestaurants: [Restaurant] = []
-    @State var selectedRestaurant: Restaurant?
-    @State var isRestaurantSelected: Bool = false
-    @State var isFetchingData: Bool = false
+    @State private var searchedRestaurants: [Restaurant] = []
+    @State private var selectedRestaurant: Restaurant?
+    @State private var isRestaurantSelected: Bool = false
+    @State private var isFetchingData: Bool = false
 
     var body: some View {
         ZStack {

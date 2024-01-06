@@ -13,7 +13,7 @@ import MapKit
 struct RestaurantDetailView: View {
 
     let restaurant: Restaurant
-    @State var isMapModalPresented: Bool = false
+    @State private var isMapModalPresented: Bool = false
 
     var body: some View {
 
@@ -45,9 +45,9 @@ struct RestaurantDetailView: View {
 
     struct RestaurantDetailCellView: View {
 
-        @State var title: String
-        @State var content: String
-        @State var iconName: String
+        private var title: String
+        private var content: String
+        private var iconName: String
         let action: () -> Void
 
         init(title: String, content: String, iconName: String = "", action: @escaping () -> Void = {}) {
