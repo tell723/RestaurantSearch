@@ -9,36 +9,21 @@
 import SwiftUI
 
 
-struct RestaurantSearchResultView: View {
+struct RestaurantSearchResultView<ViewModel: RestaurantSearchResultViewModel>: View {
 
-    let searchKeyword: String
-    @Environment(\.restaurantRepository) private var restaurantRepository
-    @State private var searchedRestaurants: [Restaurant] = []
-    @State private var selectedRestaurant: Restaurant?
-    @State private var isRestaurantSelected: Bool = false
-    @State private var isFetchingData: Bool = false
+    @StateObject var viewModel: ViewModel
 
     var body: some View {
         ZStack {
-            RestaurantListView(restaurants: self.searchedRestaurants) { selectedRestaurant in
-                self.selectedRestaurant = selectedRestaurant
-                isRestaurantSelected = true
-            }
-            .task {
-                Task {
-                    isFetchingData = true
-                    let restaurants = await restaurantRepository.fetchRestaurants(keyword: searchKeyword)
-                    self.searchedRestaurants = restaurants
-                    isFetchingData = false
-                }
-            }
+            RestaurantListView(restaurants: viewModel.searchedRestaurants,
+                               onRestaurantSelectedAction: viewModel.onListDataSelected(restaurant:))
 
-            if isFetchingData {
+            if viewModel.isFetchingData {
                 ProgressView()
             }
 
-            NavigationLink(isActive: $isRestaurantSelected) {
-                if let res = selectedRestaurant {
+            NavigationLink(isActive: $viewModel.isRestaurantSelected) {
+                if let res = viewModel.selectedRestaurant {
                     RestaurantDetailView(restaurant: res)
                 } else {
                     EmptyView()
@@ -47,13 +32,13 @@ struct RestaurantSearchResultView: View {
                 EmptyView()
             }
         }
+        .task(viewModel.setUp)
     }
 }
 
 
 #Preview {
     NavigationView {
-        RestaurantSearchResultView(searchKeyword: "")
+        RestaurantSearchResultView(viewModel: .init(searchKeyword: "", restaurantRepository: MockedRestaurantRepository()))
     }
-    .environment(\.restaurantRepository, MockedRestaurantRepository())
 }

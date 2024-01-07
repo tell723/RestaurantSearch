@@ -12,7 +12,7 @@ import SwiftUI
 struct RestaurantSearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RestaurantSearchView(viewModel: .init())
         }
     }
 }
