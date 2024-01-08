@@ -15,11 +15,11 @@ protocol RestaurantRepository {
 
 struct RestaurantRepositoryDefault: RestaurantRepository {
     func fetchRestaurants(keyword: String) async -> [Restaurant] {
-        let queryItems = [
-            URLQueryItem(name: "key", value: Constants.hpGourmetSearchApiKey),
-            URLQueryItem(name: "format", value: "json"),
-            URLQueryItem(name: "keyword", value: keyword)
-        ]
+        let queryItems = [URLQueryItem]([
+            .init(name: "key", value: Constants.hpGourmetSearchApiKey),
+            .init(name: "format", value: "json"),
+            .init(name: "keyword", value: keyword),
+        ])
         guard let url = URL(string: Constants.hpGourmetSearchApiUrl)?.queryItemAdded(qeuryItems: queryItems) else {
             print("invalid url")
             return []
